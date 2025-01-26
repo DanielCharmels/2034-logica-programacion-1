@@ -1,16 +1,26 @@
-//Variables
-let numeroSecreto = 2;
-let numeroUsuario = prompt("Me indicas un número entre 1 y 10 por favor:");
+// Prueba de avivinar el numero secreto 
+/*alert('Bienvenido al juego del número secreto');
+let intento = prompt('Elige un número entre 1 y 10');
 
-console.log(numeroUsuario);
-/*
-Este código realiza
-la comparación
-*/
-if (numeroUsuario == numeroSecreto) {
-    //Acertamos, fue verdadera la condición
-    alert(`Acertaste, el número es: ${numeroUsuario}`);
+let numeroSecreto = 8;
+
+console.log(intento  == numeroSecreto);
+if (intento  == numeroSecreto) {
+    alert('Acertaste');
 } else {
-    //La condición no se cumplió
-    alert('Lo siento, no acertaste el número');
+    alert('El número secreto era ' + numeroSecreto + ' Pero elegiste ' + intento );
+}*/
+
+// Verifica si un número ingresado por el usuario es positivo o negativo. Muestra una alerta informativa.
+
+alert("Verificar si el numero es verdadero o falso");
+
+let numero = parseFloat (prompt("ingresa un numero"));
+let numeroVerdadero = 5;
+
+if (numero === 5) {
+    alert("el numero es positivo")
+} else {
+    alert("el numero es negativo");
 }
+
